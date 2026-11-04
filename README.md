@@ -2,6 +2,8 @@
 
 English | [한국어](README.ko.md)
 
+**About the name:** *ieodo* (이어도) is how you say *이어줘* — "connect it for me" — in the Gyeongsang dialect of Korean. That is the job: it connects one AI conversation to the next, so the context carries over.
+
 *Formerly groundlink. Upgrading from it: see [CHANGELOG.md](CHANGELOG.md).*
 
 A local MCP server that automatically records the **conversations** you have with AI coding tools (Claude Code, Codex, Antigravity) on one computer, and the **history of the documents** those conversations change. Capture hooks write; AIs only read. Design notes (Korean): [wiki/schema.md](wiki/schema.md).

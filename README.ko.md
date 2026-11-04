@@ -2,6 +2,8 @@
 
 [English](README.md) | 한국어
 
+**이름의 뜻:** 이어도는 "이어줘"를 경상도 사투리로 지은 이름임. AI와 나눈 대화를 다음 대화로 이어 줘서 맥락이 끊기지 않게 한다는 뜻을 담음.
+
 *옛 이름은 groundlink임. groundlink에서 옮기는 방법은 [CHANGELOG.md](CHANGELOG.md) 참고.*
 
 한 컴퓨터의 AI(Claude Code, Codex, Antigravity)가 나눈 **대화**와, 그 대화가 고친 **문서의 이력**을 자동으로 남기는 로컬 MCP 서버임. AI는 기록을 읽기만 하고, 쓰는 것은 수집기(hook)가 함. 설계와 이유는 [wiki/schema.md](wiki/schema.md).
