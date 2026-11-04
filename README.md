@@ -2,7 +2,7 @@
 
 English | [한국어](README.ko.md)
 
-*Formerly [groundlink](https://github.com/passion-john/groundlink). Upgrading from it: see [CHANGELOG.md](CHANGELOG.md).*
+*Formerly groundlink. Upgrading from it: see [CHANGELOG.md](CHANGELOG.md).*
 
 A local MCP server that automatically records the **conversations** you have with AI coding tools (Claude Code, Codex, Antigravity) on one computer, and the **history of the documents** those conversations change. Capture hooks write; AIs only read. Design notes (Korean): [wiki/schema.md](wiki/schema.md).
 
