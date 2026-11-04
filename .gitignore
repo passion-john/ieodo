@@ -1,0 +1,13 @@
+/target
+__pycache__/
+
+# Machine-local capture hooks and installer backups (they hold absolute paths).
+/.codex/hooks.json
+/.codex/hooks.json.ieodo-backup-*
+/.codex/hooks.json.groundlink-backup-*
+/.claude/settings.local.json
+/.claude/settings.local.json.ieodo-backup-*
+/.claude/settings.local.json.groundlink-backup-*
+/.agents/hooks.json
+/.agents/hooks.json.ieodo-backup-*
+/.agents/hooks.json.groundlink-backup-*

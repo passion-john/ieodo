@@ -1,0 +1,23 @@
+[package]
+name = "ieodo"
+version = "0.3.2"
+edition = "2024"
+description = "Local MCP server that records AI conversations and the Markdown documents they change"
+license = "MIT"
+publish = false
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+regex = "1"
+libsql = "0.10.0"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time", "net", "io-std", "io-util", "signal"] }
+axum = "0.8"
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+lindera = { version = "6.2.0", features = ["embed-ko-dic"] }
+similar = "2"
+time = { version = "0.3", features = ["formatting", "parsing", "macros"] }
+
+[dev-dependencies]
+tempfile = "3"
